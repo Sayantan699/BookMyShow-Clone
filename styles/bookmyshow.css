@@ -1,0 +1,464 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container,
+img,
+.name,
+.type,
+.location,
+.container1,
+button:hover {
+  cursor: pointer;
+}
+.container {
+  box-sizing: content-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.img1,
+.search,
+.city,
+.sign {
+  display: inline-block;
+}
+.img1 {
+  margin-right: 18px;
+}
+.search,
+.city,
+.sign {
+  margin-bottom: 5px;
+}
+.first {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.input-box {
+  width: 400px;
+}
+button {
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+}
+.one {
+  display: inline-block;
+}
+.two {
+  display: inline-block;
+}
+.second {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.a {
+  display: inline-block;
+  padding: 0px 10px 0px 0px;
+  font-size: 14.3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(58, 53, 53);
+}
+.one {
+  position: relative;
+  right: 282px;
+}
+.two {
+  position: relative;
+  left: 310px;
+}
+.recommended {
+  font: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  color: rgb(55, 47, 47);
+  display: inline-block;
+  position: relative;
+  left: 298px;
+}
+.seeall {
+  color: red;
+  font: 14px Roboto;
+  display: inline-block;
+  position: relative;
+  left: 1228px;
+  font-size: 16px;
+}
+.box1 {
+  padding: 32px;
+  padding-bottom: 0%;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  display: inline-block;
+}
+img {
+  border-radius: 12px;
+}
+.card1 {
+  margin-left: 200px;
+}
+.card2 {
+  position: relative;
+  left: 20px;
+  margin-right: 20px;
+}
+.card3 {
+  margin-left: 20px;
+}
+.card4 {
+  margin-left: 20px;
+}
+.card5 {
+  position: relative;
+  left: 20px;
+}
+.cardd2 {
+  margin-left: 40px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow-x: scroll;
+  max-width: 1300px;
+  position: relative;
+  left: 310px;
+}
+.name {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-top: 4px;
+  max-width: 200px;
+  max-height: 60px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+.location {
+  color: gray;
+  margin-top: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+.type {
+  color: gray;
+  margin-top: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+.stream {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  left: 5px;
+}
+.box4 {
+  font: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  color: rgb(55, 47, 47);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.b {
+  display: inline-block;
+}
+.card7 {
+  position: relative;
+  left: 20px;
+  margin-right: 20px;
+}
+.card8 {
+  margin-left: 20px;
+}
+.card9 {
+  margin-left: 20px;
+}
+.card10 {
+  position: relative;
+  left: 20px;
+}
+.box5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.container1 {
+  background-color: rgb(43, 49, 72);
+}
+.preimg {
+  position: relative;
+  left: 350px;
+}
+.same1 {
+  color: #fff;
+  position: relative;
+  left: 300px;
+}
+.prename {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 57px;
+}
+.brand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 57px;
+}
+.c {
+  display: inline-block;
+}
+.card12 {
+  position: relative;
+  left: 20px;
+  margin-right: 20px;
+}
+.card13 {
+  margin-left: 20px;
+}
+.card14 {
+  margin-left: 20px;
+}
+.card15 {
+  position: relative;
+  left: 20px;
+}
+.name2 {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-top: 4px;
+  color: #fff;
+}
+.type2 {
+  margin-top: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: #fff;
+}
+.box6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+.card17 {
+  position: relative;
+  left: 20px;
+  margin-right: 20px;
+}
+.card18 {
+  margin-left: 20px;
+}
+.card19 {
+  margin-left: 20px;
+}
+.card20 {
+  position: relative;
+  left: 20px;
+}
+.box7 {
+  font: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  color: rgb(55, 47, 47);
+  display: inline-block;
+  position: relative;
+  left: 347px;
+  padding-top: 40px;
+}
+.box8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box9 {
+  font: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  color: rgb(55, 47, 47);
+  display: inline-block;
+  position: relative;
+  left: 347px;
+  padding-top: 40px;
+}
+.box10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 250px;
+}
+.card22 {
+  position: relative;
+  left: 20px;
+  margin-right: 20px;
+}
+.card23 {
+  margin-left: 20px;
+}
+.card24 {
+  margin-left: 20px;
+}
+.card25 {
+  position: relative;
+  left: 20px;
+}
+.container2 {
+  background-color: rgb(62, 62, 66);
+  padding-top: 10px;
+}
+.con {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 8px;
+  font-size: 25px;
+  margin-left: 880px;
+  border-radius: 5px;
+}
+.f {
+  display: inline-block;
+  color: white;
+  font: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+.e {
+  display: inline-block;
+  color: white;
+  font: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+  position: relative;
+  left: 40px;
+}
+.contact {
+  padding-bottom: 10px;
+}
+.A,
+.B,
+.C {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  color: #fff;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+.Care {
+  background-color: rgb(86, 84, 84);
+}
+.cop1,
+.cop2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(140, 132, 132);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cop2 {
+  padding-top: 3px;
+  padding-bottom: 10px;
+}
+/* Mobile */
+@media (max-width: 600px) {
+  .container,
+  .container1,
+  .container2 {
+    width: 100%;
+    padding: 0 10px;
+  }
+  header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .first,
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .first .img1 {
+    margin-bottom: 10px;
+  }
+
+  .first .search input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .city,
+  .sign {
+    margin-bottom: 10px;
+  }
+  .second .one,
+  .second .two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  main .box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box6,
+  .box8,
+  .box10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box6 .c,
+  .box8 .c,
+  .box10 .d {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Footer adjustments */
+  footer .container2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .contact,
+  .Care {
+    text-align: center;
+  }
+
+  footer .copyright {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
